@@ -29,6 +29,10 @@ public class Ejemplo02 {
         System.out.println("Ingrese la población del país");
         extension = entrada.nextDouble();
         
+        entrada.nextLine();
+        // limpieza del buffer. (Si scanner pide un tipo de variable y luego queremos que se ingrese otro tipo de
+        // variable debemos hacer una limpieza para que funcione con el orden de las entredads que declaramos.
+        
         System.out.println("Ingrese nombre del país");
         nombrePais = entrada.nextLine();
                 
